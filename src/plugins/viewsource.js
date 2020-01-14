@@ -1,6 +1,6 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import imageIcon from './icons/source.svg';
+import imageIcon from './../icons/source.svg';
 import { /* getData, */ setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 
 let viewCode = false;

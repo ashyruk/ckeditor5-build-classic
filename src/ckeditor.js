@@ -1,4 +1,4 @@
-/* eslint-disable space-in-parens, indent*/
+/* eslint-disable indent*/
 /**
  * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
@@ -41,49 +41,7 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 import Font from '@ckeditor/ckeditor5-font/src/font';
 // import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import SimpleUploadAdapterStrapi from 'ckeditor5-upload-strapi/src/adapters/simpleuploadadapterstrapi';
-
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import imageIcon from './icons/source.svg';
-import { /* getData, */ setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-
-let viewCode = false;
-// let backupCode = '';
-
-class ViewSource extends Plugin {
-	init() {
-		const editor = this.editor;
-
-		editor.ui.componentFactory.add('viewSource', locale => {
-			const view = new ButtonView(locale);
-
-			view.set({
-				label: 'View Source',
-				icon: imageIcon,
-				tooltip: true
-			});
-
-			// Callback executed once the image is clicked.
-			view.on('execute', () => {
-				if (viewCode) {
-					const plainText = editor.editing.view.getDomRoot().textContent;
-					editor.setData(plainText);
-					viewCode = false;
-				} else {
-					const dataOfModel = editor.getData();
-					setData(editor.model, '');
-					// backupCode = dataOfModel;
-					editor.model.change(writer => {
-						const insertPosition = editor.model.document.selection.getFirstPosition();
-						writer.insertText(dataOfModel, insertPosition);
-						viewCode = true;
-					});
-				}
-			});
-			return view;
-		});
-	}
-}
+import ViewSource from './plugins/viewsource';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -163,6 +121,7 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
       'redo',
+      '|',
       'viewSource'
 		]
 	},

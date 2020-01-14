@@ -1,4 +1,8 @@
-CKEditor 5 classic editor build
+CKEditor 5 editor build
+* simpleupload plugin (to work with [strapi](https://strapi.io/))
+* image resize plugin
+* view source plugin
+
 ========================================
 
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)

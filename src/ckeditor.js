@@ -171,14 +171,13 @@ ClassicEditor.defaultConfig = {
 	CustomElement: {
 		items: [
 			{
-				tag: 'order-button',
+				tag: 'button',
 				placeholder: 'order now',
 				attributes: { name: 'order-button', type: 'button' },
 				icon: OrderIcon,
 				inline: false,
 				editable: false
 			},
-			{ tag: 'tagname2' },
 		]
 	},
 };

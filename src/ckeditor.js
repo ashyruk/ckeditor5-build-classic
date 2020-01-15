@@ -41,7 +41,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 // import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import SimpleUploadAdapterStrapi from 'ckeditor5-upload-strapi/src/adapters/simpleuploadadapterstrapi';
 import ViewSource from './plugins/viewsource';
-import CustomElementPlugin from 'ckeditor5-custom-element/src/customelement';
+import CustomElementPlugin from './plugins/customelement/customelement';
 import OrderIcon from './icons/order-now.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}

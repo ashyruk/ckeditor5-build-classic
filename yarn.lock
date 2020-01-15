@@ -203,15 +203,6 @@
     "@ckeditor/ckeditor5-utils" "^15.0.0"
     lodash-es "^4.17.10"
 
-"@ckeditor/ckeditor5-core@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-16.0.0.tgz#c9ff37b883ca293ac5998e04a89e2ac613042e09"
-  integrity sha512-JKYnoXgfULjfAGRgVmf9/at3gGikfzKwGp4O8RpE3NYGeb/xH6hSgj2mUE9QwqyAY5at1QLnio5ZvU2HiWL4pA==
-  dependencies:
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-    lodash-es "^4.17.10"
-
 "@ckeditor/ckeditor5-dev-utils@^12.0.0", "@ckeditor/ckeditor5-dev-utils@^12.0.5":
   version "12.0.5"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-utils/-/ckeditor5-dev-utils-12.0.5.tgz#a196208a1b9da9abcaa207fcc77ae0a112b36acf"
@@ -271,14 +262,6 @@
   integrity sha512-6CGzfXmK/tw/fKdXqfp+azpu4fycbrTHKAHmj68we2opGWLvEpuuS/p0g39+PcrMNPYRIVjq+id2676Q6+QZrw==
   dependencies:
     "@ckeditor/ckeditor5-utils" "^15.0.0"
-    lodash-es "^4.17.10"
-
-"@ckeditor/ckeditor5-engine@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-16.0.0.tgz#68d8fabb4fa31541c9870cc94b021c5cb0f72d4f"
-  integrity sha512-2p0DT/1B+UyVAwNkkaNaG4wGkrR0TNQuPJ1c5TEMWb9NVk3mhIOJ+6lPVl0ApP3tmMALol+pLmXLX5aht6Ewnw==
-  dependencies:
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
 "@ckeditor/ckeditor5-enter@^15.0.0":
@@ -445,15 +428,6 @@
     "@ckeditor/ckeditor5-utils" "^15.0.0"
     lodash-es "^4.17.10"
 
-"@ckeditor/ckeditor5-ui@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-16.0.0.tgz#b656202e407ec1d6aebbdb96568e73dacc771cef"
-  integrity sha512-7mwIRajaN9Mf6S5ZkqWAOt/Rqy6GNS3WxhwaayMym7b1XI4oVIrxEKoun3DoKnKp3bTBMcWdQFJfsRvja2X2hA==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-    lodash-es "^4.17.10"
-
 "@ckeditor/ckeditor5-undo@^15.0.0":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-undo/-/ckeditor5-undo-15.0.0.tgz#7bc4595d7f582a66b32ca89460c18759a039cafd"
@@ -480,13 +454,6 @@
     ckeditor5 "^15.0.0"
     lodash-es "^4.17.10"
 
-"@ckeditor/ckeditor5-utils@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-16.0.0.tgz#9f7851d0271deebe3db3a5f8f1ca1c1ad6cfdcbc"
-  integrity sha512-EMrKmVmxfyuttGlbZI0eK7stYigbo2kFCasN0m2apg/Pn4Dwil0pennWuJ964zvZ8te1Pyt33cweQZlYzSqvYQ==
-  dependencies:
-    lodash-es "^4.17.10"
-
 "@ckeditor/ckeditor5-widget@^15.0.0":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-15.0.0.tgz#d8461e96bb58ef49997bb1fb12e7bea5a92c9f24"
@@ -496,17 +463,6 @@
     "@ckeditor/ckeditor5-engine" "^15.0.0"
     "@ckeditor/ckeditor5-ui" "^15.0.0"
     "@ckeditor/ckeditor5-utils" "^15.0.0"
-    lodash-es "^4.17.10"
-
-"@ckeditor/ckeditor5-widget@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-16.0.0.tgz#40702bfbf03a2f29ac8813479c549d647863e417"
-  integrity sha512-QZMRRJMAZnD3TtrobcwW/6XBQDk9RslIVux08y5YaALNtwKhTNADzB0FljDjANa+BbVQSV/z9AtGpGpSwCSY9w==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -1372,15 +1328,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-ckeditor5-custom-element@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ckeditor5-custom-element/-/ckeditor5-custom-element-4.0.0.tgz#f823ac7a80dfba0e19c64f8216596963fdc1d6f5"
-  integrity sha512-OSZ/dStb2+ZN+i6jy3jMC1RRBKdsMlJx81MgxZi0rE/Ipa9OBYvaoMYCR7tRt+eABGt7Vd0+lK7H9FL98eQzUA==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-widget" "^16.0.0"
 
 ckeditor5-upload-strapi@^1.0.2:
   version "1.0.2"

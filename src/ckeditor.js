@@ -126,7 +126,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'viewSource',
 			'|',
-			'custom-element-button'
+			'custom-element-order-button'
 		]
 	},
 	image: {
@@ -171,12 +171,12 @@ ClassicEditor.defaultConfig = {
 	CustomElement: {
 		items: [
 			{
-				tag: 'button',
+				tag: 'order-button',
 				placeholder: 'order now',
-				attributes: { name: 'order-button', type: 'button' },
+				attributes: { name: 'order-button' },
 				icon: OrderIcon,
 				inline: false,
-				editable: false
+				editable: true
 			},
 		]
 	},

@@ -1,4 +1,3 @@
-/* eslint-disable indent*/
 /**
  * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
@@ -42,6 +41,8 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 // import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import SimpleUploadAdapterStrapi from 'ckeditor5-upload-strapi/src/adapters/simpleuploadadapterstrapi';
 import ViewSource from './plugins/viewsource';
+import CustomElementPlugin from 'ckeditor5-custom-element/src/customelement';
+import OrderIcon from './icons/order-now.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -81,7 +82,8 @@ ClassicEditor.builtinPlugins = [
 	Font,
 	// CodeBlock,
 	SimpleUploadAdapterStrapi,
-	ViewSource
+	ViewSource,
+	CustomElementPlugin
 ];
 
 // Editor configuration.
@@ -120,9 +122,11 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-      'redo',
-      '|',
-      'viewSource'
+			'redo',
+			'|',
+			'viewSource',
+			'|',
+			'custom-element-tagname1'
 		]
 	},
 	image: {
@@ -163,5 +167,13 @@ ClassicEditor.defaultConfig = {
 		}
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'en',
+	CustomElement: {
+		items: [
+			{ tag: 'tagname1', placeholder: 'order now',
+				attributes: { name: 'order now' }, icon: OrderIcon,
+				inline: false, editable: false },
+			{ tag: 'tagname2' },
+		]
+	},
 };

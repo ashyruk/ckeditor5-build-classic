@@ -1,0 +1,12 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text transform="matrix(1, 0, 0, 0.909012, 0, 0.0199028)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="7" id="svg_2" y="6.531498" x="1.835795" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">order</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="7" id="svg_3" y="12.279526" x="3.585136" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">now</text>
+  <text transform="matrix(1.01185, 0, 0, 0.939375, -0.397396, 0.756808)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="7" id="svg_4" y="18.814954" x="0.55119" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">button</text>
+ </g>
+</svg>

@@ -42,7 +42,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import SimpleUploadAdapterStrapi from 'ckeditor5-upload-strapi/src/adapters/simpleuploadadapterstrapi';
 import ViewSource from './plugins/viewsource';
 import CustomElementPlugin from './plugins/customelement/customelement';
-import OrderIcon from './icons/default.svg';
+import OrderIcon from './icons/order-now-button.svg';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -172,7 +172,7 @@ ClassicEditor.defaultConfig = {
 		items: [
 			{
 				tag: 'order-button',
-				placeholder: 'order now',
+				placeholder: '|order now button|',
 				attributes: { name: 'order-button' },
 				icon: OrderIcon,
 				inline: false,

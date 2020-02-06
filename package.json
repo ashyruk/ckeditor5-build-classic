@@ -1,6 +1,6 @@
 {
 	"name": "ckeditor5-build-classic-simpleupload-imageresize",
-	"version": "1.0.13",
+	"version": "1.0.14",
 	"description": "The full-featured editor build of CKEditor 5 – the best browser-based rich text editor. Simpleupload plugin added to work with Strapi. Image resize, view source plugins",
 	"keywords": [
 		"ckeditor5-build",
@@ -52,8 +52,8 @@
 		"@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
 		"@ckeditor/ckeditor5-table": "^15.0.0",
 		"@ckeditor/ckeditor5-theme-lark": "^15.0.0",
-		"@ckeditor/ckeditor5-ui": "^16.0.0",
-		"@ckeditor/ckeditor5-widget": "^16.0.0",
+		"@ckeditor/ckeditor5-ui": "^15.0.0",
+		"@ckeditor/ckeditor5-widget": "^15.0.0",
 		"ckeditor5-upload-strapi": "^1.0.2",
 		"eslint": "^5.5.0",
 		"eslint-config-ckeditor5": "^2.0.0",

@@ -43,6 +43,7 @@ import SimpleUploadAdapterStrapi from 'ckeditor5-upload-strapi/src/adapters/simp
 import ViewSource from './plugins/viewsource';
 import CustomElementPlugin from './plugins/customelement/customelement';
 import OrderIcon from './icons/order-now-button.svg';
+import FlexBox from './plugins/flexbox/flexbox';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -83,7 +84,8 @@ ClassicEditor.builtinPlugins = [
 	// CodeBlock,
 	SimpleUploadAdapterStrapi,
 	ViewSource,
-	CustomElementPlugin
+	CustomElementPlugin,
+	FlexBox,
 ];
 
 // Editor configuration.
@@ -126,7 +128,8 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'viewSource',
 			'|',
-			'custom-element-order-button'
+			'custom-element-order-button',
+			'flexBox'
 		]
 	},
 	image: {

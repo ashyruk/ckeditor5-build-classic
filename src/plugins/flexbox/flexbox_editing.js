@@ -25,7 +25,8 @@ class FlexBoxEditing extends Plugin {
 			isObject: true,
 
 			// Allow in places where other blocks are allowed (e.g. directly in the root).
-			allowWhere: '$block'
+			allowWhere: '$block',
+			allowAttributes: [ 'style' ]
 		} );
 
 		schema.register( 'flexBoxItem', {
@@ -35,7 +36,8 @@ class FlexBoxEditing extends Plugin {
 			allowIn: 'flexBox',
 
 			// Allow content which is allowed in the root (e.g. paragraphs).
-			allowContentOf: '$root'
+			allowContentOf: '$root',
+			allowAttributes: [ 'style' ]
 		} );
 
 		// schema.addChildCheck( ( context, childDefinition ) => {
